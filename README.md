@@ -7,7 +7,7 @@
  Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
 ]=]
 
--- Instances: 77 | Scripts: 20 | Modules: 0 | Tags: 0
+-- Instances: 82 | Scripts: 22 | Modules: 0 | Tags: 0
 local G2L = {};
 
 -- StarterGui.omarDigToEarthCore
@@ -75,7 +75,7 @@ G2L["8"]["Size"] = UDim2.new(0.74851, 0, 0.14881, 0);
 G2L["8"]["Name"] = [[first]];
 G2L["8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["8"]["Text"] = [[Give]];
-G2L["8"]["Position"] = UDim2.new(0.11248, 0, 0.49655, 0);
+G2L["8"]["Position"] = UDim2.new(0.11989, 0, 0.47274, 0);
 
 
 -- StarterGui.omarDigToEarthCore.sigma.EspFrame.first.UICorner
@@ -113,7 +113,7 @@ G2L["d"]["BackgroundColor3"] = Color3.fromRGB(84, 84, 84);
 G2L["d"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["d"]["PlaceholderText"] = [[Type How Much Money you want]];
 G2L["d"]["Size"] = UDim2.new(0.98518, 0, 0.12143, 0);
-G2L["d"]["Position"] = UDim2.new(0.0037, 0, 0.05029, 0);
+G2L["d"]["Position"] = UDim2.new(0.00741, 0, 0.02648, 0);
 G2L["d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["d"]["Text"] = [[]];
 
@@ -142,7 +142,7 @@ G2L["10"]["Size"] = UDim2.new(0.84113, 0, 0.14881, 0);
 G2L["10"]["Name"] = [[second]];
 G2L["10"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["10"]["Text"] = [[Auto get Best Pets]];
-G2L["10"]["Position"] = UDim2.new(0.07914, 0, 0.69997, 0);
+G2L["10"]["Position"] = UDim2.new(0.07914, 0, 0.65533, 0);
 
 
 -- StarterGui.omarDigToEarthCore.sigma.EspFrame.second.UICorner
@@ -185,7 +185,7 @@ G2L["16"]["BackgroundColor3"] = Color3.fromRGB(84, 84, 84);
 G2L["16"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["16"]["PlaceholderText"] = [[Type How Much Gems You want]];
 G2L["16"]["Size"] = UDim2.new(0.98518, 0, 0.12143, 0);
-G2L["16"]["Position"] = UDim2.new(0.0037, 0, 0.1991, 0);
+G2L["16"]["Position"] = UDim2.new(0.0037, 0, 0.16041, 0);
 G2L["16"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["16"]["Text"] = [[]];
 
@@ -215,7 +215,7 @@ G2L["19"]["BackgroundColor3"] = Color3.fromRGB(84, 84, 84);
 G2L["19"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["19"]["PlaceholderText"] = [[Type How Much Spins You want]];
 G2L["19"]["Size"] = UDim2.new(0.98518, 0, 0.12143, 0);
-G2L["19"]["Position"] = UDim2.new(-0.0037, 0, 0.34196, 0);
+G2L["19"]["Position"] = UDim2.new(0.00741, 0, 0.30922, 0);
 G2L["19"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["19"]["Text"] = [[]];
 
@@ -231,61 +231,60 @@ G2L["1b"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 G2L["1b"]["Thickness"] = 3;
 
 
+-- StarterGui.omarDigToEarthCore.sigma.EspFrame.third
+G2L["1c"] = Instance.new("TextButton", G2L["5"]);
+G2L["1c"]["TextWrapped"] = true;
+G2L["1c"]["BorderSizePixel"] = 0;
+G2L["1c"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1c"]["TextSize"] = 14;
+G2L["1c"]["TextScaled"] = true;
+G2L["1c"]["BackgroundColor3"] = Color3.fromRGB(59, 59, 59);
+G2L["1c"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1c"]["Size"] = UDim2.new(0.84113, 0, 0.14881, 0);
+G2L["1c"]["Name"] = [[third]];
+G2L["1c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1c"]["Text"] = [[Auto Win]];
+G2L["1c"]["Position"] = UDim2.new(0.07914, 0, 0.82794, 0);
+
+
+-- StarterGui.omarDigToEarthCore.sigma.EspFrame.third.UICorner
+G2L["1d"] = Instance.new("UICorner", G2L["1c"]);
+G2L["1d"]["CornerRadius"] = UDim.new(0, 10);
+
+
+-- StarterGui.omarDigToEarthCore.sigma.EspFrame.third.UIStroke
+G2L["1e"] = Instance.new("UIStroke", G2L["1c"]);
+G2L["1e"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["1e"]["Thickness"] = 3;
+
+
+-- StarterGui.omarDigToEarthCore.sigma.EspFrame.third.soundclick
+G2L["1f"] = Instance.new("LocalScript", G2L["1c"]);
+G2L["1f"]["Name"] = [[soundclick]];
+
+
+-- StarterGui.omarDigToEarthCore.sigma.EspFrame.third.LocalScript
+G2L["20"] = Instance.new("LocalScript", G2L["1c"]);
+
+
+
 -- StarterGui.omarDigToEarthCore.sigma.drag localscript
-G2L["1c"] = Instance.new("LocalScript", G2L["2"]);
-G2L["1c"]["Name"] = [[drag localscript]];
+G2L["21"] = Instance.new("LocalScript", G2L["2"]);
+G2L["21"]["Name"] = [[drag localscript]];
 
 
 -- StarterGui.omarDigToEarthCore.sigma.Selection
-G2L["1d"] = Instance.new("Frame", G2L["2"]);
-G2L["1d"]["Active"] = true;
-G2L["1d"]["BorderSizePixel"] = 0;
-G2L["1d"]["BackgroundColor3"] = Color3.fromRGB(78, 78, 78);
-G2L["1d"]["Size"] = UDim2.new(0.2198, 0, 1, 0);
-G2L["1d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1d"]["Name"] = [[Selection]];
+G2L["22"] = Instance.new("Frame", G2L["2"]);
+G2L["22"]["Active"] = true;
+G2L["22"]["BorderSizePixel"] = 0;
+G2L["22"]["BackgroundColor3"] = Color3.fromRGB(78, 78, 78);
+G2L["22"]["Size"] = UDim2.new(0.2198, 0, 1, 0);
+G2L["22"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["22"]["Name"] = [[Selection]];
 
 
 -- StarterGui.omarDigToEarthCore.sigma.Selection.Esp
-G2L["1e"] = Instance.new("TextButton", G2L["1d"]);
-G2L["1e"]["TextWrapped"] = true;
-G2L["1e"]["BorderSizePixel"] = 0;
-G2L["1e"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1e"]["TextSize"] = 14;
-G2L["1e"]["TextScaled"] = true;
-G2L["1e"]["BackgroundColor3"] = Color3.fromRGB(51, 94, 33);
-G2L["1e"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["1e"]["Size"] = UDim2.new(0.83784, 0, 0.14881, 0);
-G2L["1e"]["Name"] = [[Esp]];
-G2L["1e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1e"]["Text"] = [[Main]];
-G2L["1e"]["Position"] = UDim2.new(0.07176, 0, 0.05268, 0);
-
-
--- StarterGui.omarDigToEarthCore.sigma.Selection.Esp.UICorner
-G2L["1f"] = Instance.new("UICorner", G2L["1e"]);
-G2L["1f"]["CornerRadius"] = UDim.new(0, 10);
-
-
--- StarterGui.omarDigToEarthCore.sigma.Selection.Esp.UIStroke
-G2L["20"] = Instance.new("UIStroke", G2L["1e"]);
-G2L["20"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["20"]["Thickness"] = 3;
-
-
--- StarterGui.omarDigToEarthCore.sigma.Selection.UICorner
-G2L["21"] = Instance.new("UICorner", G2L["1d"]);
-G2L["21"]["CornerRadius"] = UDim.new(0, 10);
-
-
--- StarterGui.omarDigToEarthCore.sigma.Selection.UIStroke
-G2L["22"] = Instance.new("UIStroke", G2L["1d"]);
-G2L["22"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["22"]["Thickness"] = 3;
-
-
--- StarterGui.omarDigToEarthCore.sigma.Selection.Misc
-G2L["23"] = Instance.new("TextButton", G2L["1d"]);
+G2L["23"] = Instance.new("TextButton", G2L["22"]);
 G2L["23"]["TextWrapped"] = true;
 G2L["23"]["BorderSizePixel"] = 0;
 G2L["23"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
@@ -294,86 +293,87 @@ G2L["23"]["TextScaled"] = true;
 G2L["23"]["BackgroundColor3"] = Color3.fromRGB(51, 94, 33);
 G2L["23"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["23"]["Size"] = UDim2.new(0.83784, 0, 0.14881, 0);
-G2L["23"]["Name"] = [[Misc]];
+G2L["23"]["Name"] = [[Esp]];
 G2L["23"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["23"]["Text"] = [[Misc]];
-G2L["23"]["Position"] = UDim2.new(0.07176, 0, 0.28213, 0);
+G2L["23"]["Text"] = [[Main]];
+G2L["23"]["Position"] = UDim2.new(0.07176, 0, 0.05268, 0);
 
 
--- StarterGui.omarDigToEarthCore.sigma.Selection.Misc.UICorner
+-- StarterGui.omarDigToEarthCore.sigma.Selection.Esp.UICorner
 G2L["24"] = Instance.new("UICorner", G2L["23"]);
 G2L["24"]["CornerRadius"] = UDim.new(0, 10);
 
 
--- StarterGui.omarDigToEarthCore.sigma.Selection.Misc.UIStroke
+-- StarterGui.omarDigToEarthCore.sigma.Selection.Esp.UIStroke
 G2L["25"] = Instance.new("UIStroke", G2L["23"]);
 G2L["25"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 G2L["25"]["Thickness"] = 3;
 
 
--- StarterGui.omarDigToEarthCore.sigma.MiscFrame
-G2L["26"] = Instance.new("Frame", G2L["2"]);
-G2L["26"]["Visible"] = false;
-G2L["26"]["Active"] = true;
-G2L["26"]["BorderSizePixel"] = 0;
-G2L["26"]["BackgroundColor3"] = Color3.fromRGB(53, 53, 53);
-G2L["26"]["Size"] = UDim2.new(0.76082, 0, 1, 0);
-G2L["26"]["Position"] = UDim2.new(0.23918, 0, 0, 0);
-G2L["26"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["26"]["Name"] = [[MiscFrame]];
-G2L["26"]["BackgroundTransparency"] = 0.2;
+-- StarterGui.omarDigToEarthCore.sigma.Selection.UICorner
+G2L["26"] = Instance.new("UICorner", G2L["22"]);
+G2L["26"]["CornerRadius"] = UDim.new(0, 10);
 
 
--- StarterGui.omarDigToEarthCore.sigma.MiscFrame.UIStroke
-G2L["27"] = Instance.new("UIStroke", G2L["26"]);
+-- StarterGui.omarDigToEarthCore.sigma.Selection.UIStroke
+G2L["27"] = Instance.new("UIStroke", G2L["22"]);
 G2L["27"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 G2L["27"]["Thickness"] = 3;
 
 
+-- StarterGui.omarDigToEarthCore.sigma.Selection.Misc
+G2L["28"] = Instance.new("TextButton", G2L["22"]);
+G2L["28"]["TextWrapped"] = true;
+G2L["28"]["BorderSizePixel"] = 0;
+G2L["28"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["28"]["TextSize"] = 14;
+G2L["28"]["TextScaled"] = true;
+G2L["28"]["BackgroundColor3"] = Color3.fromRGB(51, 94, 33);
+G2L["28"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["28"]["Size"] = UDim2.new(0.83784, 0, 0.14881, 0);
+G2L["28"]["Name"] = [[Misc]];
+G2L["28"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["28"]["Text"] = [[Misc]];
+G2L["28"]["Position"] = UDim2.new(0.07176, 0, 0.28213, 0);
+
+
+-- StarterGui.omarDigToEarthCore.sigma.Selection.Misc.UICorner
+G2L["29"] = Instance.new("UICorner", G2L["28"]);
+G2L["29"]["CornerRadius"] = UDim.new(0, 10);
+
+
+-- StarterGui.omarDigToEarthCore.sigma.Selection.Misc.UIStroke
+G2L["2a"] = Instance.new("UIStroke", G2L["28"]);
+G2L["2a"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["2a"]["Thickness"] = 3;
+
+
+-- StarterGui.omarDigToEarthCore.sigma.MiscFrame
+G2L["2b"] = Instance.new("Frame", G2L["2"]);
+G2L["2b"]["Visible"] = false;
+G2L["2b"]["Active"] = true;
+G2L["2b"]["BorderSizePixel"] = 0;
+G2L["2b"]["BackgroundColor3"] = Color3.fromRGB(53, 53, 53);
+G2L["2b"]["Size"] = UDim2.new(0.76082, 0, 1, 0);
+G2L["2b"]["Position"] = UDim2.new(0.23918, 0, 0, 0);
+G2L["2b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2b"]["Name"] = [[MiscFrame]];
+G2L["2b"]["BackgroundTransparency"] = 0.2;
+
+
+-- StarterGui.omarDigToEarthCore.sigma.MiscFrame.UIStroke
+G2L["2c"] = Instance.new("UIStroke", G2L["2b"]);
+G2L["2c"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["2c"]["Thickness"] = 3;
+
+
 -- StarterGui.omarDigToEarthCore.sigma.MiscFrame.UICorner
-G2L["28"] = Instance.new("UICorner", G2L["26"]);
-G2L["28"]["CornerRadius"] = UDim.new(0, 10);
+G2L["2d"] = Instance.new("UICorner", G2L["2b"]);
+G2L["2d"]["CornerRadius"] = UDim.new(0, 10);
 
 
 -- StarterGui.omarDigToEarthCore.sigma.MiscFrame.four
-G2L["29"] = Instance.new("TextButton", G2L["26"]);
-G2L["29"]["TextWrapped"] = true;
-G2L["29"]["BorderSizePixel"] = 0;
-G2L["29"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["29"]["TextSize"] = 14;
-G2L["29"]["TextScaled"] = true;
-G2L["29"]["BackgroundColor3"] = Color3.fromRGB(59, 59, 59);
-G2L["29"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["29"]["Size"] = UDim2.new(0.76178, 0, 0.14432, 0);
-G2L["29"]["Name"] = [[four]];
-G2L["29"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["29"]["Text"] = [[Buy Best Pickaxe]];
-G2L["29"]["Position"] = UDim2.new(0.12138, 0, 0.0505, 0);
-
-
--- StarterGui.omarDigToEarthCore.sigma.MiscFrame.four.UICorner
-G2L["2a"] = Instance.new("UICorner", G2L["29"]);
-G2L["2a"]["CornerRadius"] = UDim.new(0, 10);
-
-
--- StarterGui.omarDigToEarthCore.sigma.MiscFrame.four.UIStroke
-G2L["2b"] = Instance.new("UIStroke", G2L["29"]);
-G2L["2b"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["2b"]["Thickness"] = 3;
-
-
--- StarterGui.omarDigToEarthCore.sigma.MiscFrame.four.soundclick
-G2L["2c"] = Instance.new("LocalScript", G2L["29"]);
-G2L["2c"]["Name"] = [[soundclick]];
-
-
--- StarterGui.omarDigToEarthCore.sigma.MiscFrame.four.LocalScript
-G2L["2d"] = Instance.new("LocalScript", G2L["29"]);
-
-
-
--- StarterGui.omarDigToEarthCore.sigma.MiscFrame.antilag
-G2L["2e"] = Instance.new("TextButton", G2L["26"]);
+G2L["2e"] = Instance.new("TextButton", G2L["2b"]);
 G2L["2e"]["TextWrapped"] = true;
 G2L["2e"]["BorderSizePixel"] = 0;
 G2L["2e"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
@@ -381,181 +381,181 @@ G2L["2e"]["TextSize"] = 14;
 G2L["2e"]["TextScaled"] = true;
 G2L["2e"]["BackgroundColor3"] = Color3.fromRGB(59, 59, 59);
 G2L["2e"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["2e"]["Size"] = UDim2.new(0.75267, 0, 0.09669, 0);
-G2L["2e"]["Name"] = [[antilag]];
+G2L["2e"]["Size"] = UDim2.new(0.76178, 0, 0.14432, 0);
+G2L["2e"]["Name"] = [[four]];
 G2L["2e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["2e"]["Text"] = [[Fps Booster]];
-G2L["2e"]["Position"] = UDim2.new(0.12974, 0, 0.39759, 0);
+G2L["2e"]["Text"] = [[Buy Best Pickaxe]];
+G2L["2e"]["Position"] = UDim2.new(0.12138, 0, 0.0505, 0);
 
 
--- StarterGui.omarDigToEarthCore.sigma.MiscFrame.antilag.UICorner
+-- StarterGui.omarDigToEarthCore.sigma.MiscFrame.four.UICorner
 G2L["2f"] = Instance.new("UICorner", G2L["2e"]);
 G2L["2f"]["CornerRadius"] = UDim.new(0, 10);
 
 
--- StarterGui.omarDigToEarthCore.sigma.MiscFrame.antilag.UIStroke
+-- StarterGui.omarDigToEarthCore.sigma.MiscFrame.four.UIStroke
 G2L["30"] = Instance.new("UIStroke", G2L["2e"]);
 G2L["30"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 G2L["30"]["Thickness"] = 3;
 
 
--- StarterGui.omarDigToEarthCore.sigma.MiscFrame.antilag.soundclick
+-- StarterGui.omarDigToEarthCore.sigma.MiscFrame.four.soundclick
 G2L["31"] = Instance.new("LocalScript", G2L["2e"]);
 G2L["31"]["Name"] = [[soundclick]];
 
 
--- StarterGui.omarDigToEarthCore.sigma.MiscFrame.antilag.LocalScript
+-- StarterGui.omarDigToEarthCore.sigma.MiscFrame.four.LocalScript
 G2L["32"] = Instance.new("LocalScript", G2L["2e"]);
 
 
 
--- StarterGui.omarDigToEarthCore.sigma.MiscFrame.Link
-G2L["33"] = Instance.new("TextLabel", G2L["26"]);
+-- StarterGui.omarDigToEarthCore.sigma.MiscFrame.antilag
+G2L["33"] = Instance.new("TextButton", G2L["2b"]);
 G2L["33"]["TextWrapped"] = true;
 G2L["33"]["BorderSizePixel"] = 0;
+G2L["33"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["33"]["TextSize"] = 14;
 G2L["33"]["TextScaled"] = true;
-G2L["33"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["33"]["BackgroundColor3"] = Color3.fromRGB(59, 59, 59);
 G2L["33"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["33"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["33"]["BackgroundTransparency"] = 1;
-G2L["33"]["Size"] = UDim2.new(0.80019, 0, 0.11608, 0);
+G2L["33"]["Size"] = UDim2.new(0.75267, 0, 0.09669, 0);
+G2L["33"]["Name"] = [[antilag]];
 G2L["33"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["33"]["Text"] = [[https://discord.gg/HJSfaPTDCX]];
-G2L["33"]["Name"] = [[Link]];
-G2L["33"]["Position"] = UDim2.new(-0.01336, 0, 0.69759, 0);
+G2L["33"]["Text"] = [[Fps Booster]];
+G2L["33"]["Position"] = UDim2.new(0.12974, 0, 0.39759, 0);
+
+
+-- StarterGui.omarDigToEarthCore.sigma.MiscFrame.antilag.UICorner
+G2L["34"] = Instance.new("UICorner", G2L["33"]);
+G2L["34"]["CornerRadius"] = UDim.new(0, 10);
+
+
+-- StarterGui.omarDigToEarthCore.sigma.MiscFrame.antilag.UIStroke
+G2L["35"] = Instance.new("UIStroke", G2L["33"]);
+G2L["35"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["35"]["Thickness"] = 3;
+
+
+-- StarterGui.omarDigToEarthCore.sigma.MiscFrame.antilag.soundclick
+G2L["36"] = Instance.new("LocalScript", G2L["33"]);
+G2L["36"]["Name"] = [[soundclick]];
+
+
+-- StarterGui.omarDigToEarthCore.sigma.MiscFrame.antilag.LocalScript
+G2L["37"] = Instance.new("LocalScript", G2L["33"]);
+
+
+
+-- StarterGui.omarDigToEarthCore.sigma.MiscFrame.Link
+G2L["38"] = Instance.new("TextLabel", G2L["2b"]);
+G2L["38"]["TextWrapped"] = true;
+G2L["38"]["BorderSizePixel"] = 0;
+G2L["38"]["TextSize"] = 14;
+G2L["38"]["TextScaled"] = true;
+G2L["38"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["38"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["38"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["38"]["BackgroundTransparency"] = 1;
+G2L["38"]["Size"] = UDim2.new(0.80019, 0, 0.11608, 0);
+G2L["38"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["38"]["Text"] = [[https://discord.gg/HJSfaPTDCX]];
+G2L["38"]["Name"] = [[Link]];
+G2L["38"]["Position"] = UDim2.new(-0.01336, 0, 0.69759, 0);
 
 
 -- StarterGui.omarDigToEarthCore.sigma.MiscFrame.Copy
-G2L["34"] = Instance.new("TextButton", G2L["26"]);
-G2L["34"]["TextWrapped"] = true;
-G2L["34"]["BorderSizePixel"] = 0;
-G2L["34"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["34"]["TextSize"] = 14;
-G2L["34"]["TextScaled"] = true;
-G2L["34"]["BackgroundColor3"] = Color3.fromRGB(137, 137, 137);
-G2L["34"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["34"]["Size"] = UDim2.new(0.17716, 0, 0.12794, 0);
-G2L["34"]["Name"] = [[Copy]];
-G2L["34"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["34"]["Text"] = [[COPY]];
-G2L["34"]["Position"] = UDim2.new(0.78383, 0, 0.69484, 0);
+G2L["39"] = Instance.new("TextButton", G2L["2b"]);
+G2L["39"]["TextWrapped"] = true;
+G2L["39"]["BorderSizePixel"] = 0;
+G2L["39"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["39"]["TextSize"] = 14;
+G2L["39"]["TextScaled"] = true;
+G2L["39"]["BackgroundColor3"] = Color3.fromRGB(137, 137, 137);
+G2L["39"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["39"]["Size"] = UDim2.new(0.17716, 0, 0.12794, 0);
+G2L["39"]["Name"] = [[Copy]];
+G2L["39"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["39"]["Text"] = [[COPY]];
+G2L["39"]["Position"] = UDim2.new(0.78383, 0, 0.69484, 0);
 
 
 -- StarterGui.omarDigToEarthCore.sigma.MiscFrame.Copy.UICorner
-G2L["35"] = Instance.new("UICorner", G2L["34"]);
-G2L["35"]["CornerRadius"] = UDim.new(0, 10);
+G2L["3a"] = Instance.new("UICorner", G2L["39"]);
+G2L["3a"]["CornerRadius"] = UDim.new(0, 10);
 
 
 -- StarterGui.omarDigToEarthCore.sigma.MiscFrame.Copy.UIStroke
-G2L["36"] = Instance.new("UIStroke", G2L["34"]);
-G2L["36"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["36"]["Thickness"] = 3;
+G2L["3b"] = Instance.new("UIStroke", G2L["39"]);
+G2L["3b"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["3b"]["Thickness"] = 3;
 
 
 -- StarterGui.omarDigToEarthCore.sigma.MiscFrame.Copy.LocalScript
-G2L["37"] = Instance.new("LocalScript", G2L["34"]);
+G2L["3c"] = Instance.new("LocalScript", G2L["39"]);
 
 
 
 -- StarterGui.omarDigToEarthCore.sigma.MiscFrame.Copy.soundclick
-G2L["38"] = Instance.new("LocalScript", G2L["34"]);
-G2L["38"]["Name"] = [[soundclick]];
+G2L["3d"] = Instance.new("LocalScript", G2L["39"]);
+G2L["3d"]["Name"] = [[soundclick]];
 
 
 -- StarterGui.omarDigToEarthCore.sigma.MiscFrame.subto
-G2L["39"] = Instance.new("TextLabel", G2L["26"]);
-G2L["39"]["TextWrapped"] = true;
-G2L["39"]["BorderSizePixel"] = 0;
-G2L["39"]["TextSize"] = 14;
-G2L["39"]["TextScaled"] = true;
-G2L["39"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["39"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["39"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["39"]["BackgroundTransparency"] = 1;
-G2L["39"]["Size"] = UDim2.new(0.67369, 0, 0.12617, 0);
-G2L["39"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["39"]["Text"] = [[Channel: omargamer8198]];
-G2L["39"]["Name"] = [[subto]];
-G2L["39"]["Position"] = UDim2.new(0.05281, 0, 0.84852, 0);
+G2L["3e"] = Instance.new("TextLabel", G2L["2b"]);
+G2L["3e"]["TextWrapped"] = true;
+G2L["3e"]["BorderSizePixel"] = 0;
+G2L["3e"]["TextSize"] = 14;
+G2L["3e"]["TextScaled"] = true;
+G2L["3e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["3e"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["3e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["3e"]["BackgroundTransparency"] = 1;
+G2L["3e"]["Size"] = UDim2.new(0.67369, 0, 0.12617, 0);
+G2L["3e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["3e"]["Text"] = [[Channel: omargamer8198]];
+G2L["3e"]["Name"] = [[subto]];
+G2L["3e"]["Position"] = UDim2.new(0.05281, 0, 0.84852, 0);
 
 
 -- StarterGui.omarDigToEarthCore.sigma.MiscFrame.Copy
-G2L["3a"] = Instance.new("TextButton", G2L["26"]);
-G2L["3a"]["TextWrapped"] = true;
-G2L["3a"]["BorderSizePixel"] = 0;
-G2L["3a"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["3a"]["TextSize"] = 14;
-G2L["3a"]["TextScaled"] = true;
-G2L["3a"]["BackgroundColor3"] = Color3.fromRGB(137, 137, 137);
-G2L["3a"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["3a"]["Size"] = UDim2.new(0.17716, 0, 0.12794, 0);
-G2L["3a"]["Name"] = [[Copy]];
-G2L["3a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["3a"]["Text"] = [[COPY]];
-G2L["3a"]["Position"] = UDim2.new(0.72585, 0, 0.87069, 0);
-
-
--- StarterGui.omarDigToEarthCore.sigma.MiscFrame.Copy.UICorner
-G2L["3b"] = Instance.new("UICorner", G2L["3a"]);
-G2L["3b"]["CornerRadius"] = UDim.new(0, 10);
-
-
--- StarterGui.omarDigToEarthCore.sigma.MiscFrame.Copy.UIStroke
-G2L["3c"] = Instance.new("UIStroke", G2L["3a"]);
-G2L["3c"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["3c"]["Thickness"] = 3;
-
-
--- StarterGui.omarDigToEarthCore.sigma.MiscFrame.Copy.LocalScript
-G2L["3d"] = Instance.new("LocalScript", G2L["3a"]);
-
-
-
--- StarterGui.omarDigToEarthCore.sigma.MiscFrame.Copy.soundclick
-G2L["3e"] = Instance.new("LocalScript", G2L["3a"]);
-G2L["3e"]["Name"] = [[soundclick]];
-
-
--- StarterGui.omarDigToEarthCore.sigma.MiscFrame.AntiAfk
-G2L["3f"] = Instance.new("TextButton", G2L["26"]);
+G2L["3f"] = Instance.new("TextButton", G2L["2b"]);
 G2L["3f"]["TextWrapped"] = true;
 G2L["3f"]["BorderSizePixel"] = 0;
 G2L["3f"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["3f"]["TextSize"] = 14;
 G2L["3f"]["TextScaled"] = true;
-G2L["3f"]["BackgroundColor3"] = Color3.fromRGB(59, 59, 59);
+G2L["3f"]["BackgroundColor3"] = Color3.fromRGB(137, 137, 137);
 G2L["3f"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["3f"]["Size"] = UDim2.new(0.74851, 0, 0.14881, 0);
-G2L["3f"]["Name"] = [[AntiAfk]];
+G2L["3f"]["Size"] = UDim2.new(0.17716, 0, 0.12794, 0);
+G2L["3f"]["Name"] = [[Copy]];
 G2L["3f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["3f"]["Text"] = [[AntiAfk]];
-G2L["3f"]["Position"] = UDim2.new(0.12138, 0, 0.52625, 0);
+G2L["3f"]["Text"] = [[COPY]];
+G2L["3f"]["Position"] = UDim2.new(0.72585, 0, 0.87069, 0);
 
 
--- StarterGui.omarDigToEarthCore.sigma.MiscFrame.AntiAfk.UICorner
+-- StarterGui.omarDigToEarthCore.sigma.MiscFrame.Copy.UICorner
 G2L["40"] = Instance.new("UICorner", G2L["3f"]);
 G2L["40"]["CornerRadius"] = UDim.new(0, 10);
 
 
--- StarterGui.omarDigToEarthCore.sigma.MiscFrame.AntiAfk.UIStroke
+-- StarterGui.omarDigToEarthCore.sigma.MiscFrame.Copy.UIStroke
 G2L["41"] = Instance.new("UIStroke", G2L["3f"]);
 G2L["41"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 G2L["41"]["Thickness"] = 3;
 
 
--- StarterGui.omarDigToEarthCore.sigma.MiscFrame.AntiAfk.soundclick
+-- StarterGui.omarDigToEarthCore.sigma.MiscFrame.Copy.LocalScript
 G2L["42"] = Instance.new("LocalScript", G2L["3f"]);
-G2L["42"]["Name"] = [[soundclick]];
 
 
--- StarterGui.omarDigToEarthCore.sigma.MiscFrame.AntiAfk.LocalScript
+
+-- StarterGui.omarDigToEarthCore.sigma.MiscFrame.Copy.soundclick
 G2L["43"] = Instance.new("LocalScript", G2L["3f"]);
+G2L["43"]["Name"] = [[soundclick]];
 
 
-
--- StarterGui.omarDigToEarthCore.sigma.MiscFrame.five
-G2L["44"] = Instance.new("TextButton", G2L["26"]);
+-- StarterGui.omarDigToEarthCore.sigma.MiscFrame.AntiAfk
+G2L["44"] = Instance.new("TextButton", G2L["2b"]);
 G2L["44"]["TextWrapped"] = true;
 G2L["44"]["BorderSizePixel"] = 0;
 G2L["44"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
@@ -563,69 +563,106 @@ G2L["44"]["TextSize"] = 14;
 G2L["44"]["TextScaled"] = true;
 G2L["44"]["BackgroundColor3"] = Color3.fromRGB(59, 59, 59);
 G2L["44"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["44"]["Size"] = UDim2.new(0.76178, 0, 0.14432, 0);
-G2L["44"]["Name"] = [[five]];
+G2L["44"]["Size"] = UDim2.new(0.74851, 0, 0.14881, 0);
+G2L["44"]["Name"] = [[AntiAfk]];
 G2L["44"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["44"]["Text"] = [[Auto Chest]];
-G2L["44"]["Position"] = UDim2.new(0.12508, 0, 0.22609, 0);
+G2L["44"]["Text"] = [[AntiAfk]];
+G2L["44"]["Position"] = UDim2.new(0.12138, 0, 0.52625, 0);
 
 
--- StarterGui.omarDigToEarthCore.sigma.MiscFrame.five.UICorner
+-- StarterGui.omarDigToEarthCore.sigma.MiscFrame.AntiAfk.UICorner
 G2L["45"] = Instance.new("UICorner", G2L["44"]);
 G2L["45"]["CornerRadius"] = UDim.new(0, 10);
 
 
--- StarterGui.omarDigToEarthCore.sigma.MiscFrame.five.UIStroke
+-- StarterGui.omarDigToEarthCore.sigma.MiscFrame.AntiAfk.UIStroke
 G2L["46"] = Instance.new("UIStroke", G2L["44"]);
 G2L["46"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 G2L["46"]["Thickness"] = 3;
 
 
--- StarterGui.omarDigToEarthCore.sigma.MiscFrame.five.soundclick
+-- StarterGui.omarDigToEarthCore.sigma.MiscFrame.AntiAfk.soundclick
 G2L["47"] = Instance.new("LocalScript", G2L["44"]);
 G2L["47"]["Name"] = [[soundclick]];
 
 
--- StarterGui.omarDigToEarthCore.sigma.MiscFrame.five.LocalScript
+-- StarterGui.omarDigToEarthCore.sigma.MiscFrame.AntiAfk.LocalScript
 G2L["48"] = Instance.new("LocalScript", G2L["44"]);
 
 
 
--- StarterGui.omarDigToEarthCore.Toggle
-G2L["49"] = Instance.new("TextButton", G2L["1"]);
+-- StarterGui.omarDigToEarthCore.sigma.MiscFrame.five
+G2L["49"] = Instance.new("TextButton", G2L["2b"]);
 G2L["49"]["TextWrapped"] = true;
 G2L["49"]["BorderSizePixel"] = 0;
 G2L["49"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["49"]["TextSize"] = 14;
 G2L["49"]["TextScaled"] = true;
-G2L["49"]["BackgroundColor3"] = Color3.fromRGB(69, 69, 69);
-G2L["49"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["49"]["Size"] = UDim2.new(0.04464, 0, 0.0641, 0);
-G2L["49"]["Name"] = [[Toggle]];
+G2L["49"]["BackgroundColor3"] = Color3.fromRGB(59, 59, 59);
+G2L["49"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["49"]["Size"] = UDim2.new(0.76178, 0, 0.14432, 0);
+G2L["49"]["Name"] = [[five]];
 G2L["49"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["49"]["Text"] = [[Hide]];
-G2L["49"]["Position"] = UDim2.new(0.11384, 0, 0.02595, 0);
+G2L["49"]["Text"] = [[Auto Chest]];
+G2L["49"]["Position"] = UDim2.new(0.12508, 0, 0.22609, 0);
 
 
--- StarterGui.omarDigToEarthCore.Toggle.UICorner
+-- StarterGui.omarDigToEarthCore.sigma.MiscFrame.five.UICorner
 G2L["4a"] = Instance.new("UICorner", G2L["49"]);
 G2L["4a"]["CornerRadius"] = UDim.new(0, 10);
 
 
+-- StarterGui.omarDigToEarthCore.sigma.MiscFrame.five.UIStroke
+G2L["4b"] = Instance.new("UIStroke", G2L["49"]);
+G2L["4b"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["4b"]["Thickness"] = 3;
+
+
+-- StarterGui.omarDigToEarthCore.sigma.MiscFrame.five.soundclick
+G2L["4c"] = Instance.new("LocalScript", G2L["49"]);
+G2L["4c"]["Name"] = [[soundclick]];
+
+
+-- StarterGui.omarDigToEarthCore.sigma.MiscFrame.five.LocalScript
+G2L["4d"] = Instance.new("LocalScript", G2L["49"]);
+
+
+
+-- StarterGui.omarDigToEarthCore.Toggle
+G2L["4e"] = Instance.new("TextButton", G2L["1"]);
+G2L["4e"]["TextWrapped"] = true;
+G2L["4e"]["BorderSizePixel"] = 0;
+G2L["4e"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["4e"]["TextSize"] = 14;
+G2L["4e"]["TextScaled"] = true;
+G2L["4e"]["BackgroundColor3"] = Color3.fromRGB(69, 69, 69);
+G2L["4e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["4e"]["Size"] = UDim2.new(0.04464, 0, 0.0641, 0);
+G2L["4e"]["Name"] = [[Toggle]];
+G2L["4e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["4e"]["Text"] = [[Hide]];
+G2L["4e"]["Position"] = UDim2.new(0.11384, 0, 0.02595, 0);
+
+
+-- StarterGui.omarDigToEarthCore.Toggle.UICorner
+G2L["4f"] = Instance.new("UICorner", G2L["4e"]);
+G2L["4f"]["CornerRadius"] = UDim.new(0, 10);
+
+
 -- StarterGui.omarDigToEarthCore.Toggle.LocalScript
-G2L["4b"] = Instance.new("LocalScript", G2L["49"]);
+G2L["50"] = Instance.new("LocalScript", G2L["4e"]);
 
 
 
 -- StarterGui.omarDigToEarthCore.Toggle.UIStroke
-G2L["4c"] = Instance.new("UIStroke", G2L["49"]);
-G2L["4c"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["4c"]["Thickness"] = 3;
+G2L["51"] = Instance.new("UIStroke", G2L["4e"]);
+G2L["51"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["51"]["Thickness"] = 3;
 
 
 -- StarterGui.omarDigToEarthCore.Changer
-G2L["4d"] = Instance.new("LocalScript", G2L["1"]);
-G2L["4d"]["Name"] = [[Changer]];
+G2L["52"] = Instance.new("LocalScript", G2L["1"]);
+G2L["52"]["Name"] = [[Changer]];
 
 
 -- StarterGui.omarDigToEarthCore.sigma.EspFrame.first.soundclick
@@ -669,10 +706,30 @@ local script = G2L["c"];
 		:WaitForChild("Remotes")
 		:WaitForChild("AddRewardEvent")
 	
-	-- Validate numeric text
-	local function isValidNumber(text)
-		local n = tonumber(text)
-		return n and n > 0
+	-- Convert strings like "1M", "2.5B", etc. to actual numbers
+	local suffixes = {
+		K = 1e3,
+		M = 1e6,
+		B = 1e9,
+		T = 1e12,
+		Q = 1e15,
+		S = 1e18
+	}
+	
+	local function parseAmount(text)
+		text = text:upper():gsub("%s+", "") -- Remove spaces and make uppercase
+		local number = tonumber(text)
+		if number then
+			return number
+		end
+	
+		-- Match patterns like 1M, 2.5B, etc.
+		local base, suffix = text:match("^([%d%.]+)([KMBTQS])$")
+		if base and suffixes[suffix] then
+			return tonumber(base) * suffixes[suffix]
+		end
+	
+		return nil
 	end
 	
 	-- Handler
@@ -682,29 +739,30 @@ local script = G2L["c"];
 		print("[LocalScript] GemsBox.Text:", gemsBox.Text)    -- DEBUG
 		print("[LocalScript] SpinsBox.Text:", spinsBox.Text)  -- DEBUG
 	
+		local cash = parseAmount(cashBox.Text)
+		local gems = parseAmount(gemsBox.Text)
+		local spins = parseAmount(spinsBox.Text)
+	
 		-- Cash
-		if isValidNumber(cashBox.Text) then
-			local amt = tonumber(cashBox.Text)
-			print("[LocalScript] Sending Cash:", amt)         -- DEBUG
-			AddRewardEvent:FireServer("Cash", amt)
+		if cash and cash > 0 then
+			print("[LocalScript] Sending Cash:", cash)
+			AddRewardEvent:FireServer("Cash", cash)
 		else
 			warn("[LocalScript] Invalid Cash input, skipping")
 		end
 	
 		-- Gems
-		if isValidNumber(gemsBox.Text) then
-			local amt = tonumber(gemsBox.Text)
-			print("[LocalScript] Sending Gems:", amt)         -- DEBUG
-			AddRewardEvent:FireServer("Gems", amt)
+		if gems and gems > 0 then
+			print("[LocalScript] Sending Gems:", gems)
+			AddRewardEvent:FireServer("Gems", gems)
 		else
 			warn("[LocalScript] Invalid Gems input, skipping")
 		end
 	
 		-- Spins
-		if isValidNumber(spinsBox.Text) then
-			local amt = tonumber(spinsBox.Text)
-			print("[LocalScript] Sending Spins:", amt)        -- DEBUG
-			AddRewardEvent:FireServer("Spins", amt)
+		if spins and spins > 0 then
+			print("[LocalScript] Sending Spins:", spins)
+			AddRewardEvent:FireServer("Spins", spins)
 		else
 			warn("[LocalScript] Invalid Spins input, skipping")
 		end
@@ -812,9 +870,106 @@ local script = G2L["15"];
 	
 end;
 task.spawn(C_15);
+-- StarterGui.omarDigToEarthCore.sigma.EspFrame.third.soundclick
+local function C_1f()
+local script = G2L["1f"];
+	local btn = script.Parent
+	local soundService = game:GetService("SoundService")
+	
+	-- Click sound asset ID
+	local clickSound = Instance.new("Sound")
+	clickSound.SoundId = "rbxassetid://1673280232"  -- Your click sound asset ID
+	clickSound.Parent = btn  -- Set the sound as a child of the button
+	
+	-- Play click sound when button is clicked
+	btn.MouseButton1Click:Connect(function()
+		-- Play the sound
+		clickSound:Play()
+	end)
+	
+end;
+task.spawn(C_1f);
+-- StarterGui.omarDigToEarthCore.sigma.EspFrame.third.LocalScript
+local function C_20()
+local script = G2L["20"];
+	local button = script.Parent
+	local uiStroke = button:FindFirstChildOfClass("UIStroke")
+	local originalColor = uiStroke and uiStroke.Color or Color3.new(1, 1, 1)
+	
+	local Players = game:GetService("Players")
+	local TweenService = game:GetService("TweenService")
+	local ReplicatedStorage = game:GetService("ReplicatedStorage")
+	local TeleportRemote = ReplicatedStorage:WaitForChild("Remotes"):WaitForChild("WorldTeleportEvent")
+	
+	local player = Players.LocalPlayer
+	local char = player.Character or player.CharacterAdded:Wait()
+	local hrp = char:WaitForChild("HumanoidRootPart")
+	
+	-- Configuration
+	local teleportPos = Vector3.new(-1, 1004, -8999)
+	local tweenTarget = CFrame.new(1, -412, -9000, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	local tweenTime = 2
+	
+	-- State
+	local isOn = false
+	local loopThread
+	local lastPosition
+	
+	-- Tween helper
+	local function tweenTo(cframe)
+		local tweenInfo = TweenInfo.new(tweenTime, Enum.EasingStyle.Linear)
+		local goal = { CFrame = cframe }
+		local tween = TweenService:Create(hrp, tweenInfo, goal)
+		tween:Play()
+		tween.Completed:Wait()
+	end
+	
+	-- Loop function
+	local function startLoop()
+		lastPosition = hrp.Position
+		while isOn do
+			-- Teleport to start
+			TeleportRemote:FireServer(10)  -- args = {10}
+			task.wait(0.2) -- Small delay to ensure teleport is complete
+	
+			-- Tween to target
+			tweenTo(tweenTarget)
+	
+			-- Teleport back to start again
+			TeleportRemote:FireServer(10)
+			task.wait(0.2)
+		end
+	end
+	
+	-- Toggle logic
+	button.MouseButton1Click:Connect(function()
+		isOn = not isOn
+	
+		if isOn then
+			if uiStroke then
+				uiStroke.Color = Color3.fromRGB(0, 255, 0)
+			end
+			loopThread = task.spawn(startLoop)
+		else
+			if uiStroke then
+				uiStroke.Color = originalColor
+			end
+			isOn = false
+			if loopThread then
+				task.cancel(loopThread)
+			end
+			-- Return to last position
+			if lastPosition then
+				hrp.CFrame = CFrame.new(lastPosition)
+			end
+		end
+	end)
+	
+end;
+task.spawn(C_20);
 -- StarterGui.omarDigToEarthCore.sigma.drag localscript
-local function C_1c()
-local script = G2L["1c"];
+local function C_21()
+local script = G2L["21"];
 	local frame = script.Parent
 	local UIS = game:GetService("UserInputService")
 	
@@ -852,44 +1007,8 @@ local script = G2L["1c"];
 	end)
 	
 end;
-task.spawn(C_1c);
+task.spawn(C_21);
 -- StarterGui.omarDigToEarthCore.sigma.MiscFrame.four.soundclick
-local function C_2c()
-local script = G2L["2c"];
-	local btn = script.Parent
-	local soundService = game:GetService("SoundService")
-	
-	-- Click sound asset ID
-	local clickSound = Instance.new("Sound")
-	clickSound.SoundId = "rbxassetid://1673280232"  -- Your click sound asset ID
-	clickSound.Parent = btn  -- Set the sound as a child of the button
-	
-	-- Play click sound when button is clicked
-	btn.MouseButton1Click:Connect(function()
-		-- Play the sound
-		clickSound:Play()
-	end)
-	
-end;
-task.spawn(C_2c);
--- StarterGui.omarDigToEarthCore.sigma.MiscFrame.four.LocalScript
-local function C_2d()
-local script = G2L["2d"];
-	local button = script.Parent
-	
-	button.MouseButton1Click:Connect(function()
-		local args = {
-			"Cosmic"
-		}
-	
-		local ReplicatedStorage = game:GetService("ReplicatedStorage")
-		local event = ReplicatedStorage:WaitForChild("Remotes"):WaitForChild("BuyPickaxeEvent")
-		event:FireServer(unpack(args))
-	end)
-	
-end;
-task.spawn(C_2d);
--- StarterGui.omarDigToEarthCore.sigma.MiscFrame.antilag.soundclick
 local function C_31()
 local script = G2L["31"];
 	local btn = script.Parent
@@ -908,9 +1027,45 @@ local script = G2L["31"];
 	
 end;
 task.spawn(C_31);
--- StarterGui.omarDigToEarthCore.sigma.MiscFrame.antilag.LocalScript
+-- StarterGui.omarDigToEarthCore.sigma.MiscFrame.four.LocalScript
 local function C_32()
 local script = G2L["32"];
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		local args = {
+			"Cosmic"
+		}
+	
+		local ReplicatedStorage = game:GetService("ReplicatedStorage")
+		local event = ReplicatedStorage:WaitForChild("Remotes"):WaitForChild("BuyPickaxeEvent")
+		event:FireServer(unpack(args))
+	end)
+	
+end;
+task.spawn(C_32);
+-- StarterGui.omarDigToEarthCore.sigma.MiscFrame.antilag.soundclick
+local function C_36()
+local script = G2L["36"];
+	local btn = script.Parent
+	local soundService = game:GetService("SoundService")
+	
+	-- Click sound asset ID
+	local clickSound = Instance.new("Sound")
+	clickSound.SoundId = "rbxassetid://1673280232"  -- Your click sound asset ID
+	clickSound.Parent = btn  -- Set the sound as a child of the button
+	
+	-- Play click sound when button is clicked
+	btn.MouseButton1Click:Connect(function()
+		-- Play the sound
+		clickSound:Play()
+	end)
+	
+end;
+task.spawn(C_36);
+-- StarterGui.omarDigToEarthCore.sigma.MiscFrame.antilag.LocalScript
+local function C_37()
+local script = G2L["37"];
 	local button = script.Parent
 	local uistroke = button:FindFirstChildOfClass("UIStroke")
 	local originalColor = uistroke.Color
@@ -1014,10 +1169,10 @@ local script = G2L["32"];
 	end)
 	
 end;
-task.spawn(C_32);
+task.spawn(C_37);
 -- StarterGui.omarDigToEarthCore.sigma.MiscFrame.Copy.LocalScript
-local function C_37()
-local script = G2L["37"];
+local function C_3c()
+local script = G2L["3c"];
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
@@ -1034,10 +1189,10 @@ local script = G2L["37"];
 	end)
 	
 end;
-task.spawn(C_37);
+task.spawn(C_3c);
 -- StarterGui.omarDigToEarthCore.sigma.MiscFrame.Copy.soundclick
-local function C_38()
-local script = G2L["38"];
+local function C_3d()
+local script = G2L["3d"];
 	local btn = script.Parent
 	local soundService = game:GetService("SoundService")
 	
@@ -1053,10 +1208,10 @@ local script = G2L["38"];
 	end)
 	
 end;
-task.spawn(C_38);
+task.spawn(C_3d);
 -- StarterGui.omarDigToEarthCore.sigma.MiscFrame.Copy.LocalScript
-local function C_3d()
-local script = G2L["3d"];
+local function C_42()
+local script = G2L["42"];
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
@@ -1073,48 +1228,48 @@ local script = G2L["3d"];
 	end)
 	
 end;
-task.spawn(C_3d);
--- StarterGui.omarDigToEarthCore.sigma.MiscFrame.Copy.soundclick
-local function C_3e()
-local script = G2L["3e"];
-	local btn = script.Parent
-	local soundService = game:GetService("SoundService")
-	
-	-- Click sound asset ID
-	local clickSound = Instance.new("Sound")
-	clickSound.SoundId = "rbxassetid://1673280232"  -- Your click sound asset ID
-	clickSound.Parent = btn  -- Set the sound as a child of the button
-	
-	-- Play click sound when button is clicked
-	btn.MouseButton1Click:Connect(function()
-		-- Play the sound
-		clickSound:Play()
-	end)
-	
-end;
-task.spawn(C_3e);
--- StarterGui.omarDigToEarthCore.sigma.MiscFrame.AntiAfk.soundclick
-local function C_42()
-local script = G2L["42"];
-	local btn = script.Parent
-	local soundService = game:GetService("SoundService")
-	
-	-- Click sound asset ID
-	local clickSound = Instance.new("Sound")
-	clickSound.SoundId = "rbxassetid://1673280232"  -- Your click sound asset ID
-	clickSound.Parent = btn  -- Set the sound as a child of the button
-	
-	-- Play click sound when button is clicked
-	btn.MouseButton1Click:Connect(function()
-		-- Play the sound
-		clickSound:Play()
-	end)
-	
-end;
 task.spawn(C_42);
--- StarterGui.omarDigToEarthCore.sigma.MiscFrame.AntiAfk.LocalScript
+-- StarterGui.omarDigToEarthCore.sigma.MiscFrame.Copy.soundclick
 local function C_43()
 local script = G2L["43"];
+	local btn = script.Parent
+	local soundService = game:GetService("SoundService")
+	
+	-- Click sound asset ID
+	local clickSound = Instance.new("Sound")
+	clickSound.SoundId = "rbxassetid://1673280232"  -- Your click sound asset ID
+	clickSound.Parent = btn  -- Set the sound as a child of the button
+	
+	-- Play click sound when button is clicked
+	btn.MouseButton1Click:Connect(function()
+		-- Play the sound
+		clickSound:Play()
+	end)
+	
+end;
+task.spawn(C_43);
+-- StarterGui.omarDigToEarthCore.sigma.MiscFrame.AntiAfk.soundclick
+local function C_47()
+local script = G2L["47"];
+	local btn = script.Parent
+	local soundService = game:GetService("SoundService")
+	
+	-- Click sound asset ID
+	local clickSound = Instance.new("Sound")
+	clickSound.SoundId = "rbxassetid://1673280232"  -- Your click sound asset ID
+	clickSound.Parent = btn  -- Set the sound as a child of the button
+	
+	-- Play click sound when button is clicked
+	btn.MouseButton1Click:Connect(function()
+		-- Play the sound
+		clickSound:Play()
+	end)
+	
+end;
+task.spawn(C_47);
+-- StarterGui.omarDigToEarthCore.sigma.MiscFrame.AntiAfk.LocalScript
+local function C_48()
+local script = G2L["48"];
 	-- LocalScript inside the TextButton
 	
 	local button = script.Parent
@@ -1165,10 +1320,10 @@ local script = G2L["43"];
 	end)
 	
 end;
-task.spawn(C_43);
+task.spawn(C_48);
 -- StarterGui.omarDigToEarthCore.sigma.MiscFrame.five.soundclick
-local function C_47()
-local script = G2L["47"];
+local function C_4c()
+local script = G2L["4c"];
 	local btn = script.Parent
 	local soundService = game:GetService("SoundService")
 	
@@ -1184,10 +1339,10 @@ local script = G2L["47"];
 	end)
 	
 end;
-task.spawn(C_47);
+task.spawn(C_4c);
 -- StarterGui.omarDigToEarthCore.sigma.MiscFrame.five.LocalScript
-local function C_48()
-local script = G2L["48"];
+local function C_4d()
+local script = G2L["4d"];
 	local button = script.Parent
 	local uiStroke = button:FindFirstChildOfClass("UIStroke")
 	
@@ -1230,10 +1385,10 @@ local script = G2L["48"];
 	end)
 	
 end;
-task.spawn(C_48);
+task.spawn(C_4d);
 -- StarterGui.omarDigToEarthCore.Toggle.LocalScript
-local function C_4b()
-local script = G2L["4b"];
+local function C_50()
+local script = G2L["50"];
 	local button = script.Parent -- The TextButton inside the Bubble Gum GUI
 	local bubbleGumGui = game.Players.LocalPlayer.PlayerGui:WaitForChild("omarDigToEarthCore") -- Reference to the Bubble Gum GUI
 	local frame = bubbleGumGui:WaitForChild("sigma") -- The Frame named 'All' inside the Bubble Gum GUI
@@ -1249,10 +1404,10 @@ local script = G2L["4b"];
 	end)
 	
 end;
-task.spawn(C_4b);
+task.spawn(C_50);
 -- StarterGui.omarDigToEarthCore.Changer
-local function C_4d()
-local script = G2L["4d"];
+local function C_52()
+local script = G2L["52"];
 	-- LocalScript: UISelectionController (Esp & Misc Only)
 	print("[UISelectionController] Script initializing...")
 	
@@ -1350,6 +1505,6 @@ local script = G2L["4d"];
 	switchTo("Esp")
 	
 end;
-task.spawn(C_4d);
+task.spawn(C_52);
 
 return G2L["1"], require;
