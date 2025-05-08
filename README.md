@@ -14,6 +14,7 @@ local G2L = {};
 G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
 G2L["1"]["DisplayOrder"] = 1000;
 G2L["1"]["Name"] = [[omarDigToEarthCore]];
+G2L["1"]["ResetOnSpawn"] = false;
 
 
 -- StarterGui.omarDigToEarthCore.sigma
@@ -101,7 +102,6 @@ G2L["c"] = Instance.new("LocalScript", G2L["8"]);
 
 -- StarterGui.omarDigToEarthCore.sigma.EspFrame.Howmuch1
 G2L["d"] = Instance.new("TextBox", G2L["5"]);
-G2L["d"]["CursorPosition"] = -1;
 G2L["d"]["Name"] = [[Howmuch1]];
 G2L["d"]["PlaceholderColor3"] = Color3.fromRGB(27, 27, 27);
 G2L["d"]["BorderSizePixel"] = 0;
@@ -173,7 +173,6 @@ G2L["15"]["Name"] = [[ifneed]];
 
 -- StarterGui.omarDigToEarthCore.sigma.EspFrame.Howmuch2
 G2L["16"] = Instance.new("TextBox", G2L["5"]);
-G2L["16"]["CursorPosition"] = -1;
 G2L["16"]["Name"] = [[Howmuch2]];
 G2L["16"]["PlaceholderColor3"] = Color3.fromRGB(27, 27, 27);
 G2L["16"]["BorderSizePixel"] = 0;
@@ -203,7 +202,6 @@ G2L["18"]["Thickness"] = 3;
 
 -- StarterGui.omarDigToEarthCore.sigma.EspFrame.Howmuch3
 G2L["19"] = Instance.new("TextBox", G2L["5"]);
-G2L["19"]["CursorPosition"] = -1;
 G2L["19"]["Name"] = [[Howmuch3]];
 G2L["19"]["PlaceholderColor3"] = Color3.fromRGB(27, 27, 27);
 G2L["19"]["BorderSizePixel"] = 0;
